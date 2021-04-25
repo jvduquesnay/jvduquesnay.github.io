@@ -7,33 +7,56 @@
         
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Playfair+Display+SC&display=swap');
-            
+            div {
+                margin: 60px 100px 20px;
+            }
+            img { 
+                float: right;
+            }
             body {
                 font-family: 'Playfair Display', serif;
                 text-align:center;
-                background-color:rgb(253,237,239);
+                background-color:rgb(247, 242, 243);
                 
             }
+            /* Header 1 Configuration */
             h1 {
                 font-family: 'Playfair Display SC', serif;
                 text-align:center; 
-                font-size:50px;
+                font-size:30px;
+            }
+            /* Links */
+            a:link {
+                color:green;
+                background-color: transparent;
+                text-decoration: none;
+            }
+            a:visited {
+                color:brown;
+                background-color: transparent;
+                text-decoration: none;
+            }
+            a:hover {
+                color:pink;
+                background-color: transparent;
+                text-decoration: none;
             }
             
-
         </style>
     </head>
-<body style ="margin: 0;">
+<body>
+    <div class="container">
+    <!-- Image offset from text-->  
+    <p><img src= "jwebcircle.png" alt="Jodie" width="300"; height="300" style="margin:50px"> 
+        <h1>Jodie-Ann Duquesnay</h1>
+        <p style="font-size:10px">..a child of the universe no less than the trees and the stars.."</p>
+        <p style="font-size:14px">I am a first year Master's student in the Department of Computer Science at the <a href="https://www.usc.edu">University of Southern California.</a>
+        My research interests include computer vision, graphics and explainable AI.
+        <br><br> 
+        I am a proud member of the following organizations; National Society of Black Engineers, Black in AI, Society of Women Engineers and Alpha Kappa Alpha Sorority, Incorporated.
+    </p>
 
-    <div class="weAre">
-        <h1 style="margin-top: 4rem; padding-top: 4rem;" >
-        J o d i e &nbsp;&nbsp;D u q u e s n a y</h1>
+    <footer style="font-size:10px"> Made with ❤ by Jodie </footer>
     </div>
-
-    <div class="typewriter"> 
-    <p>"..a child of the universe no less than the trees and the stars.."</p>
-     </div>    
-    
-    
 </body>
 </html>
